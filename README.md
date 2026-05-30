@@ -1,61 +1,61 @@
-# vivek.dev
+# vivek.dev 🌐
 
 > Personal portfolio with a dual-mode experience — choose between a Terminal (CLI-style) interface or a GUI (visual cards) interface.
 
-**Live:** [vivek-portfolio.netlify.app](https://vivek-portfolio.netlify.app) · **Full-Stack Developer · Open to opportunities**
+**🚀 Live:** [vivek-portfolio.netlify.app](https://vivek-portfolio.netlify.app) · **Full-Stack Developer · Open to opportunities**
 
 ---
 
-## Overview
+## 📖 Overview
 
 `vivek.dev` is a developer portfolio built around two distinct experiences:
 
-- **Terminal mode** — CLI-style interface. Navigate using commands. Green-on-dark aesthetic.
-- **GUI mode** — Visual interface with cards, motion, and color. Built for a modern web feel.
+- 💻 **Terminal mode** — CLI-style interface. Navigate using commands. Green-on-dark aesthetic.
+- 🎨 **GUI mode** — Visual interface with cards, motion, and color. Built for a modern web feel.
 
 ---
 
-## Projects Featured
+## 🗂️ Projects Featured
 
 | # | Project | Type | Stack |
 |---|---------|------|-------|
-| 01 | E-Commerce Platform | Microservices | Java, Spring Boot, Kafka, MongoDB, Redis, Docker, AWS |
-| 02 | Hotel Review System | Microservices | Java, Spring Boot, PostgreSQL, Docker, AWS |
-| 03 | Blog Application | Monolithic | Java, Spring Boot, Spring Security, JWT, MySQL |
+| 01 | 🛒 E-Commerce Platform | Microservices | Java, Spring Boot, Kafka, MongoDB, Redis, Docker, AWS |
+| 02 | 🏨 Hotel Review System | Microservices | Java, Spring Boot, PostgreSQL, Docker, AWS |
+| 03 | 📝 Blog Application | Monolithic | Java, Spring Boot, Spring Security, JWT, MySQL |
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-### Backend
+### ⚙️ Backend
 `Java` `Spring Boot` `Spring MVC` `Spring Data JPA` `Hibernate` `REST APIs` `Microservices`
 
-### Security
+### 🔐 Security
 `Spring Security` `JWT` `OAuth2`
 
-### Databases & Messaging
+### 🗄️ Databases & Messaging
 `MongoDB` `Redis` `Kafka` `MySQL` `PostgreSQL`
 
-### DevOps & Cloud
+### ☁️ DevOps & Cloud
 `Docker` `AWS` `CI/CD`
 
-### Frontend (Portfolio UI)
+### 🎨 Frontend (Portfolio UI)
 `React` `Tailwind CSS` `Framer Motion` `TypeScript` `Vite`
 
 ---
 
-## Features
+## ✨ Features
 
-- Dual-mode UI — Terminal & GUI, switchable mid-session
-- Keyboard-navigable terminal with real command support
-- Animated project cards with tech tags and core highlights
-- Skills & stack section with proficiency levels
-- Responsive design across all screen sizes
-- Dark mode by default
+- 🔀 Dual-mode UI — Terminal & GUI, switchable mid-session
+- ⌨️ Keyboard-navigable terminal with real command support
+- 🃏 Animated project cards with tech tags and core highlights
+- 📊 Skills & stack section with proficiency levels
+- 📱 Responsive design across all screen sizes
+- 🌑 Dark mode by default
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ```bash
 # Clone the repo
@@ -71,14 +71,14 @@ npm run dev
 
 ---
 
-## Contact
+## 📬 Contact
 
-- **GitHub** → [github.com/vivekanandadash](https://github.com/vivekanandadash)
-- **LinkedIn** → [linkedin.com/in/vivekananda-dash](https://www.linkedin.com/in/vivekananda-dash/)
-- **Email** → vivekanandadash245@gmail.com
+- 🐙 **GitHub** → [github.com/vivekanandadash](https://github.com/vivekanandadash)
+- 💼 **LinkedIn** → [linkedin.com/in/vivekananda-dash](https://www.linkedin.com/in/vivekananda-dash/)
+- 📧 **Email** → vivekanandadash245@gmail.com
 
 ---
 
-## License
+## 📄 License
 
-MIT — feel free to take inspiration, but please don't copy the design wholesale.
+MIT — feel free to take inspiration, but please don't copy the design wholesale. ⭐ Star the repo if you like it!
