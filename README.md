@@ -2,7 +2,7 @@
 
 > Personal portfolio with a dual-mode experience — choose between a Terminal (CLI-style) interface or a GUI (visual cards) interface.
 
-**🚀 Live:** [vivek-portfolio.netlify.app](https://vivek-portfolio.netlify.app) · **Full-Stack Developer · Open to opportunities**
+**🚀 Live:** [vivek-duo-portfolio.netlify.app](https://vivek-duo-porfolio.netlify.app/) · **Full-Stack Developer · Open to opportunities**
 
 ---
 
