@@ -31,7 +31,7 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
       { type: 'blank', delay: 100 },
       { type: 'cmd', text: 'whoami', delay: 300 },
       { type: 'output', text: `${PROFILE_DATA.name} — ${PROFILE_DATA.role}`, delay: 550 },
-      { type: 'dim', text: 'Pushing code daily to GitHub. Learning in public.', delay: 650 },
+      { type: 'dim', text: 'Architecting microservices & cloud-native backends · Java · Spring Boot · AWS', delay: 650 },
       { type: 'blank', delay: 700 },
       { type: 'cmd', text: 'ls skills/', delay: 900 },
       { type: 'tags', items: PROFILE_DATA.skills.map(s => s.name), delay: 1150 },

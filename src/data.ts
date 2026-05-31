@@ -1,8 +1,8 @@
 import { Profile } from './types';
 
 export const PROFILE_DATA: Profile = {
-  name: "Vivek",
-  role: "Full-Stack Developer",
+ name: "Vivek",
+role: "Java Backend Developer",
   skills: [
     // Backend
     { name: "Java", icon: "☕", level: "Expert", category: "Backend" },
