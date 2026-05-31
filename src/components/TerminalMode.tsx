@@ -139,16 +139,16 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
         { id: `${cmdId}-help-clr`, type: 'dim', text: '  clear    — reset terminal screen' },
         { id: `${cmdId}-help-gui`, type: 'dim', text: '  gui      — switch to visual GUI mode' }
       );
-    } else if (cmd === 'whoami') {
-      newLines.push({
-        id: `${cmdId}-who-out`,
-        type: 'output',
-        text: `${PROFILE_DATA.name} — ${PROFILE_DATA.role}`
-      }, {
-        id: `${cmdId}-who-dim`,
-        type: 'dim',
-        text: 'Pushing code daily to GitHub. Learning in public.'
-      });
+   } else if (cmd === 'whoami') {
+  newLines.push({
+    id: `${cmdId}-who-out`,
+    type: 'output',
+    text: `${PROFILE_DATA.name} — ${PROFILE_DATA.role}`
+  }, {
+    id: `${cmdId}-who-dim`,
+    type: 'dim',
+    text: 'Architecting microservices & cloud-native backends · Java · Spring Boot · AWS'
+  });
     } else if (cmd === 'skills') {
       newLines.push({
         id: `${cmdId}-skills-out`,
