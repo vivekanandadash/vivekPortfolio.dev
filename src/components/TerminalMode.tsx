@@ -197,7 +197,7 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
       onClick={focusInput}
     >
       {/* Portfolio navigation bar */}
-      <nav className="portfolio-nav fixed top-0 left-0 right-0 z-50 px-6 py-3 flex items-center justify-between bg-[#0a0a0a]/95 border-b border-[#00ff88]/10">
+      <nav className="portfolio-nav fixed top-0 left-0 right-0 z-50 px-3 sm:px-6 py-3 flex items-center justify-between bg-[#0a0a0a]/95 border-b border-[#00ff88]/10">
         <button 
           id="btn-term-back"
           onClick={(e) => { e.stopPropagation(); onBack(); }}
@@ -232,7 +232,7 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
               }
               if (line.type === 'cmd') {
                 return (
-                  <div key={line.id} className="term-line cmd text-[13px] line-clamp-1 text-[#00ff88] flex items-center font-mono">
+                  <div key={line.id} className="term-line cmd text-[13px] text-[#00ff88] flex flex-wrap items-center font-mono">
                     <span className="font-bold select-none mr-2 font-mono flex items-center">
                       <span className="text-[#00cc6a]">vivek@ubuntu</span>
                       <span className="text-white">:</span>
@@ -247,7 +247,7 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
                 return (
                   <div 
                     key={line.id} 
-                    className="term-line output text-[13px] leading-relaxed text-[#00ff88]/80 pl-4 font-mono" 
+                    className="term-line output text-[13px] leading-relaxed text-[#00ff88]/80 pl-4 font-mono break-all" 
                     dangerouslySetInnerHTML={{ __html: line.text || '' }}
                   />
                 );
