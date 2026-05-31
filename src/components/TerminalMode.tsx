@@ -214,7 +214,7 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
         </button>
       </nav>
 
-      <div className="terminal-window max-w-[860px] mx-auto px-6 pt-8 pb-20 w-full flex-1 flex flex-col justify-start">
+      <div className="terminal-window max-w-[860px] mx-auto px-3 sm:px-6 pt-8 pb-20 w-full flex-1 flex flex-col justify-start">
         {/* Terminal Header */}
         <div className="term-header border border-[#00ff88]/15 rounded-t-lg px-4 py-2.5 flex items-center gap-2 bg-[#00ff88]/[0.03] select-none">
           <div className="term-dot red w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
@@ -224,7 +224,7 @@ export default function TerminalMode({ onBack, onSwitchToGui }: TerminalModeProp
         </div>
 
         {/* Terminal Body */}
-        <div className="term-body border border-[#00ff88]/15 border-t-0 rounded-b-lg p-7 bg-[#00ff88]/[0.01] min-h-[70vh] flex flex-col justify-start flex-1">
+        <div className="term-body border border-[#00ff88]/15 border-t-0 rounded-b-lg p-3 sm:p-7 bg-[#00ff88]/[0.01] min-h-[70vh] flex flex-col justify-start flex-1" >
           <div className="flex-1 space-y-1">
             {lines.map((line) => {
               if (line.type === 'blank') {
