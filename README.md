@@ -81,4 +81,4 @@ npm run dev
 
 ## 📄 License
 
-MIT — feel free to take inspiration, but please don't copy the design wholesale. ⭐ Star the repo if you like it!
+MIT — feel free to take inspiration, but please don't copy the design wholesale. ⭐ Star the repo if you like It!
